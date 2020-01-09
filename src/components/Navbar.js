@@ -1,17 +1,23 @@
 import React, { Component } from 'react';
 import { Link, animateScroll as scroll } from "react-scroll";
+import Fade from 'react-reveal/Fade';
+import data from '../data'
+
 class Navbar extends Component {
     state = {  }
     scrollToTop = () => {
         scroll.scrollToTop();
     };
     render() {
-        return (<nav>
+        return (
+        <>
+        <nav>
+            <h1><Fade bottom cascade>{data.name}</Fade></h1>
             <ul>
                 <li><Link
                     className='link'
                     activeClass="active"
-                    to="homw"
+                    to="home"
                     spy={true}
                     smooth={true}
                     offset={-70}
@@ -21,7 +27,7 @@ class Navbar extends Component {
                 <li><Link
                     className='link'
                     activeClass="active"
-                    to="About"
+                    to="about"
                     spy={true}
                     smooth={true}
                     offset={-70}
@@ -46,7 +52,9 @@ class Navbar extends Component {
                     duration={500}
                 >Contact</Link></li>
             </ul>
-        </nav> );
+        </nav>
+        </>
+        );
     }
 }
 
