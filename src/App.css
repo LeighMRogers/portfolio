@@ -46,6 +46,7 @@
   font-family: "Oswald", sans-serif;
 } */
 
+/* Nav styling */
 .navContainer {
   display: flex;
   flex-direction: row;
@@ -61,11 +62,14 @@
   display: flex;
   flex-direction: row;
   padding: 10px;
+  font-family: "Oswald", sans-serif;
+  color: #455963;
 }
 
 .navLinks {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 ul li {
@@ -79,17 +83,15 @@ ul li {
   padding: 10px
 }
 
-/* nav li .link{
-  text-decoration: none;
-  color: black;
-  padding: 1em;
+nav li .link{
+  color: #455963;
   opacity: 0.5;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
-} */
+}
 
 /* li .link:hover{
   opacity: 1;
