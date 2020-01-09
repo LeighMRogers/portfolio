@@ -46,22 +46,37 @@
   font-family: "Oswald", sans-serif;
 } */
 
-nav{
+.navContainer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   position:fixed;
+  width: 100%;
   /* left:60em;
   top:6em; */
   z-index: 100;
 }
 
-nav li{
+.logo {
   display: flex;
   flex-direction: row;
+  padding: 10px;
+}
+
+.navLinks {
+  display: flex;
+  flex-direction: row;
+}
+
+ul li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   cursor: pointer;
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px
 }
 
 /* nav li .link{

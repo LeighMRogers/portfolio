@@ -11,9 +11,9 @@ class Navbar extends Component {
     render() {
         return (
         <>
-        <nav>
-            <h1><Fade bottom cascade>{data.name}</Fade></h1>
-            <ul>
+        <nav className="navContainer">
+            <h1 className="logo"><Fade bottom cascade>{data.name}</Fade></h1>
+            <ul className="navLinks">
                 <li><Link
                     className='link'
                     activeClass="active"
