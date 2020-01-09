@@ -9,9 +9,9 @@ class Project extends Component {
         <div className='project'>
         <a href={this.props.url}>
             <img src={this.props.imageSrc} alt={this.props.title}></img>
-            </a>
-            <h1>{this.props.title}</h1>
-            <span>{this.props.service}</span>
+            <h1>{this.props.title}</h1></a>
+            <h3>{this.props.service}</h3>
+            <p>{this.props.description}</p>
         </div>
             </Fade>);
     }
