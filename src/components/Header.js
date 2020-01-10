@@ -19,7 +19,10 @@ class Header extends Component {
                     {data.headerTagline[0]}<br></br>{data.headerTagline[1]}<br></br>
                     {data.headerTagline[2]}
                 </p>
-                <button><a href={`mailto:${data.contactEmail}`} rel="noopener noreferrer">HIRE ME</a></button>
+                <div className="button-container">
+                    <button><a href={`mailto:${data.contactEmail}`} rel="noopener noreferrer">Hire Me</a></button>
+                    <button><a href={`${data.resume}`} >Download Resume</a></button>
+                </div>
             </Fade>
         </div>);
     }
