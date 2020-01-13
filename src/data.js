@@ -3,6 +3,7 @@ import ghostPacImage from "./components/images/GhostPac.png"
 import classWebsite from "./components/images/C35Website.png"
 import bangazonMockup from "./components/images/bangazon-figma-mockup.jpg"
 import safeTripImage from "./components/images/SafeTripMyItineraries.png"
+import resume from "./components/images/LeighRogersResume2019-Developer.pdf"
 
 export default
     {
@@ -13,7 +14,7 @@ export default
                         'a UI/UX app developer.',
                         //Line 3 For Header
                         'Check out my work.'
-    ],
+    ],  resume: resume,
         //Contact Email
         contactEmail:'limarkey@gmail.com',
         abouttext: "With over 10 years of experience in digital strategy and web project management, I have focused on producing high-quality digital products. Now as a front-end developer and UI/UX designer, I have the skills to implement projects from conception to deployment. This means I understand both stakeholder priorities and digital end-user needs. A big-picture thinker and strategist at heart, I excel at standardizing user-focused and data-centric processes like UX architecture, design systems, content audits, and user research.",
