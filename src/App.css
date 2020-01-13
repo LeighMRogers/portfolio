@@ -22,12 +22,13 @@
   /* left:60em;
   top:6em; */
   z-index: 100;
+  background-color: rgba(180, 219, 220, 0.701);
 }
 
 .logo {
   display: flex;
   flex-direction: row;
-  padding: 10px;
+  padding-left: 1em;
   font-family: "Oswald", sans-serif;
   color: #455963;
 }
@@ -36,6 +37,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding-right: 1em;
 }
 
 ul li {
@@ -51,7 +53,6 @@ ul li {
 
 nav li .link{
   color: #455963;
-  opacity: 0.5;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -60,7 +61,7 @@ nav li .link{
 }
 
 li .link:hover{
-  opacity: 1;
+  opacity: .5;
 }
 
 /* Header styling */
@@ -79,7 +80,7 @@ li .link:hover{
   justify-content: space-between; */
   /* flex-wrap: wrap; */
   margin-bottom: 5em;
-  padding: 10px;
+  margin-left: 5em;
 }
 
 .header-title {
@@ -155,57 +156,71 @@ button a {
   opacity: 1;
 } */
 
-/* .about{
+/* ABOUT section */
+.about{
   display: flex;
   flex-direction: row;
-} */
+  margin-left: 5em;
+}
 
 /* .about-content{
   position: relative;
   left:15em;
 } */
 
-/* .about-content h1{
+.about-content h1{
   font-family: 'Oswald', sans-serif;
-  font-size: 5em;
+  font-size: 3em;
   text-align: left;
-} */
+}
 
-/* .about-content p{
+.about-content p{
   font-size: 1.3em;
   text-align: left;
-  width: 37em;
-} */
+}
 
-/* .about img{
+.about img{
+  width: 20em;
+  margin-right: 5em;
   margin-left: 5em;
-} */
+}
 
-/* .work{
-  position: relative;
+/* WORK section */
+.workContainer {
+  margin-left: 5em;
+  margin-right: 5em;
+  align-items: center;
+}
+
+.work{
+  /* position: relative; */
   display: flex;
-  flex-direction: column;
-  left:15em;
-  top:8em;
-  align-items: flex-start;
-} */
+  /* flex-direction: column; */
+  /* left:15em;
+  top:8em; */
+  align-items: center;
+}
 
-/* .work .heading{
+.work .heading{
   font-family: 'Oswald', sans-serif;
-  font-size: 5em;
+  font-size: 3em;
   text-align: left;
-} */
+}
 
-/* .work .work-content{
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  grid-gap: 2em;
-} */
+.work .work-content{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 
-/* .project img{
+.project {
   width: 30em;
-  height: 30em;
-} */
+}
+
+.project img {
+  width: 30em;
+  height: auto;
+}
 
 /* .contact{
   position: relative;
