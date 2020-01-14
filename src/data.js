@@ -1,7 +1,7 @@
-import aboutImage from "./components/images/HeadshotFun.jpg"
-import ghostPacImage from "./components/images/GhostPac.png"
-import classWebsite from "./components/images/C35Website.png"
-import bangazonMockup from "./components/images/bangazon-figma-mockup.jpg"
+import aboutImage from "./components/images/HeadshotFun.png"
+import ghostPacImage from "./components/images/GhostPacLogin.png"
+import classWebsite from "./components/images/ClassWebsiteScreenshot.png"
+import bangazonMockup from "./components/images/BangazonDashboard.png"
 import safeTripImage from "./components/images/SafeTripMyItineraries.png"
 import resume from "./components/images/LeighRogersResume2019-Developer.pdf"
 
