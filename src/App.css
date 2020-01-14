@@ -198,7 +198,7 @@ button a {
   /* flex-direction: column; */
   /* left:15em;
   top:8em; */
-  align-items: center;
+  /* align-items: center; */
 }
 
 .work .heading{
@@ -210,11 +210,13 @@ button a {
 .work .work-content{
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
 .project {
   width: 30em;
+  padding-bottom: 3em;
 }
 
 .project img {
