@@ -151,22 +151,24 @@ button a {
   text-decoration: none;
 }
 
-/* li .link:active {
+li .link:active {
   color:black;
   opacity: 1;
-} */
+}
 
 /* ABOUT section */
 .about{
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
   margin-left: 5em;
+  align-items: center;
+  /* flex-wrap: wrap; */
 }
 
-/* .about-content{
-  position: relative;
-  left:15em;
-} */
+.about-content{
+  min-width: 300px;
+  max-width: 600px;
+}
 
 .about-content h1{
   font-family: 'Oswald', sans-serif;
