@@ -151,22 +151,24 @@ button a {
   text-decoration: none;
 }
 
-/* li .link:active {
+li .link:active {
   color:black;
   opacity: 1;
-} */
+}
 
 /* ABOUT section */
 .about{
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
   margin-left: 5em;
+  align-items: center;
+  /* flex-wrap: wrap; */
 }
 
-/* .about-content{
-  position: relative;
-  left:15em;
-} */
+.about-content{
+  min-width: 300px;
+  max-width: 600px;
+}
 
 .about-content h1{
   font-family: 'Oswald', sans-serif;
@@ -236,57 +238,82 @@ button a {
   opacity: 0.7;
 }
 
+.project h2, h3 {
+  margin: .25em 0;
+}
+
+.project h2 {
+  font-size: 2em;
+}
+
 .project h1:hover {
   opacity: 0.7;
 }
 
 /* CONTACT section */
-/* .contact{
-  position: relative;
-  top:20em;
-  left:15em;
-  text-align: left;
-} */
+.contactContainer {
+  margin-left: 5em;
+}
 
-/* .contact h1{
+.contact{
+  display: flex;
+  flex-direction: column;
+  /* top:20em; */
+  /* left:15em; */
+  /* text-align: left; */
+}
+
+.contact h1{
   font-family: 'Oswald', sans-serif;
-  font-size: 5em;
-  text-align: left;
-} */
+  font-size: 3em;
+  /* text-align: left; */
+}
 
-/* .amazing-color{
+.contact h2 {
+  font-size: 2.5em;
+  color: #455963;
+  font-weight: 700;
+  margin: .5em 0;
+}
+
+.amazing-color{
   color:#B4DBDC;
   opacity: 1;
-} */
+}
 
-/* .contact .email{
-  color:black;
+.contact .email{
+  color: #455963;
   font-size: 2em;
-} */
+  text-decoration: none;
+}
 
-/* .contact li{
-  display: inline-block;
-  margin-top:0;
-  margin-bottom: 0;
-  margin-right: 1em;
-  margin-left: 0;
-} */
+.contact ul {
+  display: flex;
+  padding: 0;
+  /* margin-top:0; */
+  /* margin-bottom: 0; */
+  /* margin-right: 1em; */
+  /* margin-left: 0; */
+}
 
-/* .contact li a{
+.contact li {
+  padding: 1em 1em 0 0;
+  text-transform: lowercase;
+  font-size: 1.25em;
+}
+
+.contact li a{
   text-decoration: none;
   color:black;
-} */
+}
 
-/* .footer{
-  position: relative;
-  top:2em;
-  padding: 1em;
-} */
+.footer{
+  margin: 2em 0;
+  text-align: end;
+  padding-right: 1.5em;
+  color: #455963;
+}
 
-/* .footer a{
-  text-decoration: none;
-  color:#2c59fb;
-} */
 
 /* SMARTPHONES PORTRAIT */
 /* @media only screen and (min-device-width: 320px) and (max-device-width : 480px){

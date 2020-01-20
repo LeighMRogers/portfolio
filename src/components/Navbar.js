@@ -8,6 +8,7 @@ class Navbar extends Component {
     scrollToTop = () => {
         scroll.scrollToTop();
     };
+
     render() {
         return (
         <>

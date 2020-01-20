@@ -9,7 +9,7 @@ class Project extends Component {
         <div className='project'>
         <a href={this.props.url}>
             <img src={this.props.imageSrc} alt={this.props.title}></img>
-            <h1>{this.props.title}</h1></a>
+            <h2>{this.props.title}</h2></a>
             <h3>{this.props.service}</h3>
             <p>{this.props.description}</p>
         </div>

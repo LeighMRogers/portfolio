@@ -11,13 +11,13 @@ export default
         headerTagline: [//Line 1 For Header
                         'Hello! I\'m Leigh,',
                         //Line 2 For Header
-                        'a UI/UX app developer.',
+                        'a UI/UX designer & developer.',
                         //Line 3 For Header
                         'Check out my work.'
     ],  resume: resume,
         //Contact Email
         contactEmail:'limarkey@gmail.com',
-        abouttext: "With over 10 years of experience in digital strategy and web project management, I have focused on producing high-quality digital products. Now as a front-end developer and UI/UX designer, I have the skills to implement projects from conception to deployment. This means I understand both stakeholder priorities and digital end-user needs. A big-picture thinker and strategist at heart, I excel at standardizing user-focused and data-centric processes like UX architecture, design systems, content audits, and user research.",
+        abouttext: "With over 10 years of experience in digital strategy and web project management, I have focused on producing high-quality digital products. Now as a front-end developer and UI/UX designer, I have the skills to implement projects from conception to deployment. This means I understand both stakeholder priorities and end-user needs. A big-picture thinker and strategist at heart, I excel at standardizing user-focused and data-centric processes like UX architecture, design systems, content audits, and user research.",
         aboutImage: aboutImage,
        //Change This To Hide The Image of About Section (True Or False)
        ShowAboutImage:true, //true or false
