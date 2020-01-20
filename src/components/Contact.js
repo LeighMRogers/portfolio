@@ -12,7 +12,7 @@ class Contact extends Component {
                 </h1>
                 <Fade bottom>
                     <div className='contact-content'>
-                        <h2>Let’s <span className='amazing-color'>create</span> something together</h2>
+                        <h2>Let’s <span className='amazing-color'>create</span> something together.</h2>
                             <a href={`mailto:${data.contactEmail}`} className='email'>{data.contactEmail}</a>
                         <ul>
                             {data.social.map((link,index)=>(
@@ -21,7 +21,7 @@ class Contact extends Component {
                         </ul>
                     </div>
                 </Fade>
-                    <span className='footer'>Copyright Leigh Rogers &copy; 2020</span>
+                    <p className='footer'>Copyright &copy; 2020 Leigh Rogers</p>
             </div>
         );
     }
