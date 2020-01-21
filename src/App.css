@@ -314,89 +314,97 @@ li .link:active {
   color: #455963;
 }
 
-
 /* SMARTPHONES PORTRAIT */
-/* @media only screen and (min-device-width: 320px) and (max-device-width : 480px){
+@media only screen and (min-device-width: 320px) and (max-device-width : 480px){
 
 body{
-  font-size: 6px;
+  font-size: .4em;
 }
 
-header h1{
+/* header h1{
   font-size: 5em;
   padding: 1em;
   margin-right: 0em;
-}
+} */
 
-.heading-background{
+/* .heading-background{
   display: none;
-}
+} */
+
 nav{
   display: none;
 }
-.header-title{
+
+/* .header-title{
   font-size: 3em;
   text-align: left;
   top:1em;
   left:1em;
-}
-.about{position: relative;
-      display: flex;
-      top:-30em;
-}
-.about img{
+} */
+
+/* .about{
+  position: relative;
+  display: flex;
+  top:-30em;
+} */
+
+/* .about img{
   display: none
-}
-.about-content{
+} */
+
+/* .about-content{
   left:2em;
-}
-.about-content p{
+} */
+
+/* .about-content p{
   font-size: 2.5em;
   text-align: left;
   width: 300px;
-}
+} */
 
-.work{
+/* .work{
   left:2em;
   top:2em;
   align-items: flex-start;
-}
-.work .work-content{
+} */
+
+/* .work .work-content{
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 5em;
-}
-.project img{
+} */
+
+/* .project img{
   width: 45em;
   height: 45em;
-}
+} */
 
-.contact{
+/* .contact{
   top:15em;
   left:2em;
-}
-.contact h1{
-  font-size: 5em;
-}
-.contact .email{
-  font-size: 3.5em;
-}
+} */
 
-.contact li{
+/* .contact h1{
+  font-size: 5em;
+} */
+
+/* .contact .email{
+  font-size: 3.5em;
+} */
+
+/* .contact li{
   display: block;
   padding: 2em;
-}
-.contact li a{
-  font-size: 2.5em;
-}
-.footer{
+} */
+
+/* .footer{
   top:4em;
   padding: 1em;
   font-size: 2em;
+} */
+
+
 }
-
-
-/* } */
 
 /* iPads (portrait and landscape) ----------- */
 /* @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
