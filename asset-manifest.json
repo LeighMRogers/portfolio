@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.957b242f.chunk.css",
-    "main.js": "/portfolio/static/js/main.585475ac.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.585475ac.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.4c288c33.chunk.css",
+    "main.js": "/portfolio/static/js/main.6b77e176.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.6b77e176.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.c507fcf5.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.c507fcf5.js.map",
     "static/js/2.6578e161.chunk.js": "/portfolio/static/js/2.6578e161.chunk.js",
     "static/js/2.6578e161.chunk.js.map": "/portfolio/static/js/2.6578e161.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.9f38402e2edf985c5e728cce0fc0b33a.js": "/portfolio/precache-manifest.9f38402e2edf985c5e728cce0fc0b33a.js",
+    "precache-manifest.0fd5464feb5d97fd6e214c62017c9f98.js": "/portfolio/precache-manifest.0fd5464feb5d97fd6e214c62017c9f98.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.957b242f.chunk.css.map": "/portfolio/static/css/main.957b242f.chunk.css.map",
+    "static/css/main.4c288c33.chunk.css.map": "/portfolio/static/css/main.4c288c33.chunk.css.map",
     "static/js/2.6578e161.chunk.js.LICENSE": "/portfolio/static/js/2.6578e161.chunk.js.LICENSE",
-    "static/media/BangazonEmpDashboard.svg": "/portfolio/static/media/BangazonEmpDashboard.85f898af.svg",
-    "static/media/C35Website.png": "/portfolio/static/media/C35Website.f91d163b.png",
-    "static/media/GhostPacLogin.png": "/portfolio/static/media/GhostPacLogin.62c90ba8.png",
-    "static/media/HeadshotFun.jpg": "/portfolio/static/media/HeadshotFun.29c74fe9.jpg",
+    "static/media/BangazonDashboard.png": "/portfolio/static/media/BangazonDashboard.86057f5f.png",
+    "static/media/ClassWebsiteScreenshot.png": "/portfolio/static/media/ClassWebsiteScreenshot.d811982b.png",
+    "static/media/GhostPacLogin.png": "/portfolio/static/media/GhostPacLogin.a23292ed.png",
+    "static/media/HeadshotFun.png": "/portfolio/static/media/HeadshotFun.0d4d7a6c.png",
     "static/media/LeighRogersResume2019-Developer.pdf": "/portfolio/static/media/LeighRogersResume2019-Developer.61a0b3ca.pdf",
-    "static/media/SafeTripMyItineraries.png": "/portfolio/static/media/SafeTripMyItineraries.56bf20b8.png"
+    "static/media/SafeTripMyItineraries.png": "/portfolio/static/media/SafeTripMyItineraries.236fcdc4.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c507fcf5.js",
     "static/js/2.6578e161.chunk.js",
-    "static/css/main.957b242f.chunk.css",
-    "static/js/main.585475ac.chunk.js"
+    "static/css/main.4c288c33.chunk.css",
+    "static/js/main.6b77e176.chunk.js"
   ]
 }
