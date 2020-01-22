@@ -13,7 +13,7 @@ class About extends Component {
                         <p>{data.abouttext}</p>
                 </Fade>
                 </div>
-                <div>
+                <div className="aboutImg">
                     <img src={data.aboutImage} alt='about image'/>
                 </div>
             </div>
