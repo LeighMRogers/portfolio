@@ -362,6 +362,10 @@ body{
   margin-top: 2em;
 }
 
+button:hover {
+  opacity: 0.7;
+}
+
 .about{
   display: flex;
 }
@@ -388,15 +392,29 @@ body{
   align-items: flex-start;
 } */
 
-.heading {
+.heading{
   font-size: 4.5em;
 }
 
 /* .work .work-content{
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 5em;
+  display: flex;
 } */
+
+.project h2{
+  font-size: 3.5em;
+}
+
+.project h3 {
+  font-size: 2.5em;
+}
+
+.project h4 {
+  font-size: 2em;
+}
+
+.project p {
+  font-size: 2em;
+}
 
 /* .project img{
   width: 45em;
@@ -408,24 +426,28 @@ body{
   left:2em;
 } */
 
-/* .contact h1{
-  font-size: 5em;
-} */
+.contact h1{
+  font-size: 4.5em;
+}
 
-/* .contact .email{
+.contact h2{
+  font-size: 4em;
+}
+
+.contact .email{
   font-size: 3.5em;
-} */
+}
 
-/* .contact li{
+.contact li{
   display: block;
-  padding: 2em;
-} */
+  font-size: 2.5em;
+  text-align: center;
+}
 
-/* .footer{
-  top:4em;
-  padding: 1em;
+.footer{
   font-size: 2em;
-} */
+  text-align: center;
+}
 
 
 }
