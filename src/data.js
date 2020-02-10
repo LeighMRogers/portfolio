@@ -4,6 +4,8 @@ import classWebsite from "./components/images/ClassWebsiteScreenshot.png"
 import bangazonMockup from "./components/images/BangazonDashboard.png"
 import safeTripImage from "./components/images/SafeTripMyItineraries.png"
 import resume from "./components/images/LeighRogersResume2019-Developer.pdf"
+import AlcanzaImage from "./components/images/AlcanzaLanding.png"
+import LivedInLanding from "./components/images/LivedInLanding.png"
 
 export default
     {
@@ -26,9 +28,9 @@ export default
             {
                 id: 1,
                 title: 'LivedIn',
-                service: 'React App Developemnt | UI/UX Research & Design',
+                service: 'React App Development | UI/UX Research & Design',
                 date: "February 2020",
-                imageSrc: "",
+                imageSrc: LivedInLanding,
                 description: "Built a React-based app that searches rental homes and apartment buildings by geolocation using Leaflet API and Mapbox and gives users the ability to rate apartment units and homes. Created a robust UI/UX case study including user research, empathy maps, personas, usability testing, lo- and hi-fi mockups, and design system.",
                 url: 'https://github.com/LeighMRogers/LivedIn'
             },
@@ -37,7 +39,7 @@ export default
                 title: 'Alcanza',
                 service: 'UI/UX Research & Design',
                 date: "Jan-Feb 2020",
-                imageSrc: "",
+                imageSrc: AlcanzaImage,
                 description:"Researched and delivered a user experience design solution for client Tennessee Immigrant & Refugee Rights Coalition (TIRRC) of a citizenship mentoring app, showcasing user research, contextual inquiry, lo- and hi-fi mockups, usability testing, user flow charts, and functional decomposition of the user experience of all user types: mentors, mentees, and admins. Resulted in high client satisfaction by clarifying user needs and program goals.",
                 url: 'https://docs.google.com/presentation/d/1xbWSW-3UcPYLpLtxNnBuErsDtr0GCbcVcapARPrF8ow/edit?usp=sharing'
             },
